@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    color: inherit;
+    width: 1350px;
+    }
+a{
+    color: inherit;
+    text-decoration: none;
+    }
+.row::after{
+    content: url();
+    display: block;
+    clear: both;
+    }
+.banner{
+    background-image: url(bestgraphics.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 10px 150px;
+    height: 100vh;
+    }
+.headerlogo{
+    height: 100px;
+    }
+.menu{
+    float: right;
+    background-color: rgb(127, 229, 255);
+    height: 50px;
+    line-height: 40px;
+    font-size: medium;
+    font-weight: bolder;
+    }
+.menu a{
+    color: inherit;
+    margin: 0px 10px;
+    text-decoration:none;
+    }
+
+.headertext{ 
+    font: size 80px;
+    color: black;
+    }
+.intro-text{
+    text-align: center;
+    margin: 100px 100px;
+    color: deeppink;
+    text-transform: capitalize;
+    }
+
+
+a:hover{
+    xt-decoration:underline ;
+    }
+
+.intro-text a{
+color: #ffffff;
+display: inline-block;
+height: 50px;
+line-height: 50px;
+background-color: #a52a2a;
+border-radius: 4px;
+text-transform: capitalize;}
+    
+.flex-container {
+    background: cornsilk;
+    width:  1350px;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+}
+
+.flex-items{
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    width:450px;
+    text-align: center;
+}
+.icons{
+width: 35px;
+}
+.timeless{
+width: 1370px;
+margin: 0px;
+padding: 10px;
+display: flex;
+flex-wrap: nowrap;
+flex-direction:row;
+justify-content: center;
+
+}
+.timeless-items{
+width: 1200px;
+height: 400px;
+background: coral;
+margin: 0px;
+padding: 20px 10px 20px 30px;
+a
+}
+.timeless-image{
+width:750px;
+height: 400px;
+
+}
+.header-work{
+text-align: center;
+background: cornsilk;
+margin: 0px;
+padding-top: 30px;
+font-size: 30px;
+}
+.work-container{
+    background: cornsilk;
+    width:  1350px;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+}
+.work-items{
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0px;
+    width:450px;
+    text-align: center;
+}
+.work-items{
+    margin: 10px 10px 10px 10px;
+}
+.work-items{
+    margin: 10px 10px 10px 10px;
+}
+.logoswift{
+    background-color: chocolate;
+    border-style: solid;
+    border-width: 50px;
+    border-color: chocolate;
+    width: fit-content;
+    font-size: 25px;
+    text-align: center; 
+    padding: 2px 80px;     
+    }
+.logoswift-button{
+    background-color: cornsilk;
+    margin-bottom: 20px;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 5px;
+    }
+.thoughts-container{
+    background: cornsilk;
+    width:  1350px;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+}
+.thought-header{
+    text-align: center;
+    font-size: 20px;
+    background-color: cornsilk;
+   margin-top: 20px;
+    padding-top: 40px;
+    }
+.thought-items{
+    border-style: solid;
+    border-color:cornsilk;
+    padding: 5px;
+    margin-top: 0px;
+    width: 450px;
+    text-align: center;
+}
+
+.happyclient-container{
+    background: cornsilk;
+    width:  1350px;
+    height: auto;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-shrink: 50px;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    
+}
+.happyclient-items1{
+    border-style: solid;
+    border-color:black;
+    border-width: 1px;
+    padding: 5px;
+    width: 450px;
+
+}
