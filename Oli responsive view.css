@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}  
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/sweet.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    color: white;
+    letter-spacing: 0.5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.top-nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px ;
+   
+}
+.nav-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.37);
+}
+
+  
+.logo {
+    margin: 0;
+    padding: 10px;
+}
+.menu-buitton{
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+.menu-checkbox {
+    display: none;
+}
+ 
+
+
+.menu-button div {
+    height: 2px;
+    background-color: #FFFFFF;
+    margin: 4px 0;
+}
+
+a.active{
+    background-color: rgb(137, 63, 206);
+    color:white;
+    transition: 5s;
+    }
+    
+.a:hover{
+    background-color: rgba(150, 107, 43, 0.801);
+    color: red;
+    transition: 5s;
+    }
+            
+.banner-text{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    padding: 85px 0;
+}
+.awesome-p{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.banner-button {
+    text-align: center; 
+    padding: 70px;
+    margin: 20px;
+    }
+.learn-more{
+    width: 10%;
+    border: 1px solid white;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.055);
+    margin: 20px;
+    color: white;
+}
+.notify{
+    width: 50%;
+    border: 1px solid white;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+}
+
+.right-nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding-top: 100px;
+    
+}
+.right-nav img{
+    margin: 20px 0;
+}
+
+.bottom-nav{
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+   
+}
+.bottom-nav a{
+    color: white;
+    padding: 020px;
+}
+.left-nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.507);
+}  
+
+    
+    .latest{
+      text-align: center;
+      line-height:40px;
+    }   
+    .latest>h1{
+        font-size: 40px;
+    }
+    .bonded{
+        padding-top: 60px;
+        padding-bottom: 250px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+      
+    }
+    .email{
+        width: 50%;
+        padding: 0.9rem;
+    }
+    .notify-me{
+        width: 50%;
+        border: 1px solid black;
+        padding: 0.6rem;  
+        background-color: rgba(25, 25, 236, 0.952);
+        color: white;
+    }
+    .about-us {
+        text-align: center;
+        line-height: 2.0rem;
+       
+    }
+    .about-us h1{
+        font-size: x-large;
+       
+    }
+    .about-us>h1 {
+        padding: 2.5rem;
+       
+    }
+    .about-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        padding: 60px;
+        grid-gap: 40px;
+        line-height: 2.0rem;
+    }
+    .what-we-do{
+        text-align: center;
+        line-height: 40px;
+
+    }
+    .what-to{
+        font-size: x-large;
+    }
+
+    .dispaly{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+        line-height: 40px;
+        padding: 0 60px;
+    }
+       
+    .dispaly>div{
+        padding: 20px 0;
+        letter-spacing: 1px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .got-a-qustion{
+        text-align: center;
+        line-height: 1.0rem;
+        padding: 60px;
+    }
+    .got-a{
+        font-size: x-large;
+        padding: 30px;
+    }
+    .form{
+        padding: 60px;
+        margin:0 30px;
+        justify-content: center;
+        text-align: center;
+    }
+    .email-1{
+        border: 2px solid white;
+        width: 40%;
+        padding: 0.9rem;
+        margin: 20px;
+    }
+    .subject{
+        border: 2px solid white;
+        width: 84%;
+        padding: 0.9rem;
+        margin: 20px;
+    }
+    .textarea{
+        border: 2px solid white;
+        width: 84%;
+        margin: 20px;
+    }
+    .send{
+        border: 1px solid blue;
+        background-color: blue;
+        color: white;
+        font-weight: 800;
+        margin: 100px;
+        padding: 8px;
+      
+        }
+        .footer{
+            
+            height: 30px;
+            float: right;
+            color:white;
+            float: left;
+            margin: 0 100px;
+        }
+        .footer-2{
+           float: right;
+           margin: 0 100px;
+        }
+
+      /* Responsive view */
+        @media screen and (max-width:520px){
+
+            .top-nav {
+                padding: 0 10px;
+            }
+            .menu-button {
+                display: block;
+            }
+            .nav-menu {
+                display: none;
+                width: 100%;
+                margin-top: 15px;
+                padding: 10px;
+                background-color: rgba(255, 255, 255, 0.2);
+            }
+            .nav-menu-checkbox:checked:checked ~ .nav-menu {
+                display: block;
+            }
+            .nav-menu a {
+                display: block;
+                margin: 10px;
+                font-size: 1.2rem;
+            }
+            .left-nav, .right-nav, .bottom-nav {
+                display: none;
+            }
+            .about-1{
+                display: grid;
+               
+                padding: 60px;
+                grid-gap: 40px;
+                line-height: 2.0rem;
+                
+            }
+        }
